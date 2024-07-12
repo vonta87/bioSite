@@ -21,21 +21,20 @@ body {
 }
 
 img {
-
-width: 300px;
-height: 300px;
-display: block;
-margin: 0px auto;
-float: left;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0px auto;
+	float: left;
 
 }
 
 #middle {
-width: 200px;
-height: 200px;
-display: block;
-margin: 0px auto;
-float: left;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0px auto;
+	float: left;
 }
 
 figure {
@@ -43,10 +42,23 @@ float: left;
 
 }
 
+figcaption {
+	color: white;
+	}
+
 #hob {
-	width: 200px;
-	height: 200px;
+	max-width: 100%;
+	max-height: 100%;
+	float: left;
 	
+}
+
+.info {
+	color: white;
+	float: left;
+	background-color: grey;
+	
+}
 }
 
 #navbar {
@@ -76,7 +88,7 @@ float: left;
 
 }
 
-#container {
+#hobbies {
 	margin-top: 2%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -84,7 +96,17 @@ float: left;
 
 }
 
-h2,h3{
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+    }
+
+h2{
 	background-color: grey;
 	color: white;
 	border: 1px solid #D6A800;
@@ -103,7 +125,7 @@ h2,h3{
 .questions-title {
 	text-align: center;
 	font-size: 2em;
-	color: red;
+	color: white;
 	font-weight: 400;
 
 }
